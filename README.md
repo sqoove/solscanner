@@ -1,4 +1,4 @@
-# SolScanner - Python Based Solana Live Log Streamer
+# SolScanner - Python Based Solana Streamer
 
 **SolScanner** powerfull real-time WebSocket-based log monitoring tool for the Solana blockchain. Solana Scanner allows developers, researchers, and blockchain enthusiasts to connect directly to Solana’s mainnet-beta WebSocket endpoint and stream all processed transaction logs. Built with Python’s `asyncio` and `websockets`, it offers a lightweight and extensible way to observe network activity and extract insights in real time.
 
