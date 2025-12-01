@@ -14,7 +14,7 @@ class SolScanner:
     endpoint for the purpose of real-time monitoring of transaction logs. It subscribes to all logs using
     the 'logsSubscribe' method with a 'processed' commitment level and continuously receives log data.
     The class is intended for developers, researchers, or systems that require streaming blockchain logs
-    for analysis, alerting, or further processing. It uses asynchronous programming via Python’s asyncio
+    for analysis, alerting, or further processing. It uses asynchronous programming via Python's asyncio
     and integrates the websockets library to handle the WebSocket lifecycle.
 
     Parameters:
@@ -99,7 +99,7 @@ class SolScanner:
 if __name__ == "__main__":
     """
     This main entry point starts the SolScanner asynchronously when the script is executed directly.
-    It initializes the event loop and runs the scanner’s main loop using asyncio. This allows the program
+    It initializes the event loop and runs the scanner's main loop using asyncio. This allows the program
     to maintain a persistent WebSocket connection and continuously receive live log data from the Solana
     network. This part is crucial to bootstrap the asynchronous workflow of the scanner's real-time process.
 
